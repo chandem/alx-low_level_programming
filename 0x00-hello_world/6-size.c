@@ -1,2 +1,2 @@
 #!/bin/bash
-sdout.type
+sizeof()
