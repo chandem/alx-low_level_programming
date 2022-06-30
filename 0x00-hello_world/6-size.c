@@ -1,2 +1,2 @@
 #!/bin/bash
-sizeof()
+printf(" %d" ,sizeof());
