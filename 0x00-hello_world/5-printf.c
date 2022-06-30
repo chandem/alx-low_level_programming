@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
-*the main return value is void
- *the code return 0
+ *main - Entry point
+ * printf print words
+ *Return: return 1 
  */
 int main(void)
 {
