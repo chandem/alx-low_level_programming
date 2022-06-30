@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  *main - Entry point
- *The code, print word
- *Return: return 1 
+ *My hello, printf task
+ *Return: return 1 after program execution
  */
 int main(void)
 {
