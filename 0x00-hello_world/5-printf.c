@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- *the code return message
+*the main -is void
+ *the code return 0
  */
 int main(void)
 {
