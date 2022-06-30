@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - Entry point
- * printf print words
+ *prinf print words
  *Return: return 1 
  */
 int main(void)
