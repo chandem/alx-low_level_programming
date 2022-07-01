@@ -12,10 +12,11 @@ while(i<10){
 putchar(i + '0');
 i++;
  }
-while(i<='f')
+int j;
+for(j='a';j<='f';j++)
 {
-putchar (i);
-i++
+putchar(j);
+
 }
 putchar ('\n');
     return 0;
