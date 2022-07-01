@@ -14,7 +14,7 @@ i++;
  }
 while(i<='f')
 {
-putchar (i + '0');
+putchar (i);
 }
 putchar ('\n');
     return 0;
