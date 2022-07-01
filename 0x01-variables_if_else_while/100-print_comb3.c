@@ -6,10 +6,17 @@
  */
 int main()
 {
-int x=0;
-for(x = 'A'; x <= 'z'; x++)
+int x;
+for(x=0;x<10;x++){
+int y;
+for(y=0;y<10;y++)
+{
+putchar(x + '0');
+putchar(y + '0');
+putchar ("\,");
+putchar (" ");
+}
 {     
-putchar(x);
 }
 return 0;
 }
