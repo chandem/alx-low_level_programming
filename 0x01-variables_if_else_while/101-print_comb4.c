@@ -7,18 +7,18 @@
 int main()
 {
 int x;
-for(x=0;x<10;x++)
+for(x=0;x<=9;x++)
 {
 int y;
-for(y=x+1;y<10;y++)
+for(y=x+1;y<=9;y++)
 {
 int z;
-for(z=y+1;z<10;z++)
+for(z=y+1;z<=9;z++)
 {
 putchar(x + '0');
 putchar(y + '0');
 putchar(z + '0');
-if((x=8)&&(y==8)&&(z==9))
+if((x==8)&&(y==8)&&(z==9))
 {
 break;
 }
