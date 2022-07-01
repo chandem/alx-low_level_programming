@@ -7,9 +7,9 @@
 int main()
 {
 int x;
-for(x=0;x<10;x++){
+for(x=0;x<=9;x++){
 int y;
-for(y=x+1;y<10;y++)
+for(y=x+1;y<=9;y++)
 {
 putchar(x + '0');
 putchar(y + '0');
