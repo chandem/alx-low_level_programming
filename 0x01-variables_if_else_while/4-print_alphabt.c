@@ -8,7 +8,7 @@
 int main(void)
 {
 int n=0;
-while(n<='z' && n!='e' && n!=q)
+while(n<='z' && n!='e' && n!='q')
 {
 putchar(n);
 n++
