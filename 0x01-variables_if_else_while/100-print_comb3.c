@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-int n;
-for (n= ‘a’; n<= ‘z’; n++)
-putchar(n);
-for (n= ‘A’; n<= ‘Z’; n++)
-putchar(n);
-return 0;
+for(int x = 'a'; x <= 'z'; x++) 
+    {
+        
+        putchar(x);
+    }
+    return 0;
 }
 
 
