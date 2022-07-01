@@ -19,7 +19,7 @@ if(n<0){
 printf("is negative\n");
 }
 if(n==0){
-printf("is zero\n);
+printf("is zero\n");
 }	
 	return (0);
 }
