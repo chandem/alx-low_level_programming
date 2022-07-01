@@ -7,10 +7,10 @@
 int main()
 {
 int x;
-for(x=0;x<100;x++)
+for(x=0;x<=99;x++)
 {
 int y;
-for(y=0;y<100;y++)
+for(y=0;y<=99;y++)
 {
 putchar(x + '0');
 putchar(x + '0');
