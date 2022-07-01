@@ -8,8 +8,7 @@ int main()
 {
 int x;
 for(x = 'A'; x <= 'z'; x++)
-{
-int x=tolower(x);     
+{     
 putchar(x);
 }
 return 0;
