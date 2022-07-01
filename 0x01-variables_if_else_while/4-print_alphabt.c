@@ -7,11 +7,10 @@
 
 int main(void)
 {
-int n=0;
-while(n<='z' && n!='e' && n!='q')
+int n;
+for(n=0;n<='z';n++)
 {
 putchar(n);
-n++
 }
 putchar('\n');
 return 0;
