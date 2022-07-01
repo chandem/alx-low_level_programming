@@ -10,10 +10,10 @@ int x;
 for(x=0;x<10;x++)
 {
 int y;
-for(y=0;y<10;y++)
+for(y=x+1;y<10;y++)
 {
 int z;
-for(z=0;z<10;z++)
+for(z=y+1;z<10;z++)
 {
 putchar(x + '0');
 putchar(y + '0');
