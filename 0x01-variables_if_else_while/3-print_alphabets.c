@@ -8,10 +8,13 @@
 int main(void)
 {
 int n;
-for(n='A'; n<='z'; n++)
+for(n='a'; n<='z'; n++)
 {
 putchar(n);
 }
-putchar("\n");
+for(n='A'; n<='Z'; n++)
+{
+putchar(n);
+}
 return 0;
 }
