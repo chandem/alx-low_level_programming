@@ -8,15 +8,7 @@
 int main(void)
 {
 int n;
-for(n='a'; n<'e'; n++)
-{
-putchar(n);
-}
-for(n='f'; n<'q'; n++)
-{
-putchar(n);
-}
-for(n='r'; n<='z'; n++)
+for(n='a'; (n<='z' && n!=e && n!=q) ; n++)
 {
 putchar(n);
 }
