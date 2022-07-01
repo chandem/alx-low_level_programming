@@ -12,7 +12,7 @@ while(i<10){
 putchar(i + '0');
 i++;
  }
-while(i<='e')
+while(i<='f')
 {
 putchar (i + '0');
 }
