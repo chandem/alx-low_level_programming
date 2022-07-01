@@ -12,5 +12,9 @@ for(n='a'; n<='z'; n++)
 {
 putchar(n);
 }
+for(n='A'; n<='A'; n++)
+{
+putchar(n);
+}
 return 0;
 }
