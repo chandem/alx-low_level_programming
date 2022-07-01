@@ -30,4 +30,5 @@ else
 printf("%i is positive\n", n);
 }
 
-return
+return 0;
+}
