@@ -13,10 +13,10 @@ for(y=0;y<10;y++)
 {
 putchar(x + '0');
 putchar(y + '0');
-putchar ("\,");
-putchar (" ");
+putchar (',');
+putchar (' ');
 }
-{     
+}   
 }
 return 0;
 }
