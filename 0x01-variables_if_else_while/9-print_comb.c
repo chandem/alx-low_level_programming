@@ -13,6 +13,5 @@ putchar(',');
 putchar(' ');
  }
 putchar(9+'0');
-putchar(' ');
     return 0;
 }
