@@ -17,7 +17,7 @@ for(z=0;z<10;z++)
 {
 putchar(x + '0');
 putchar(y + '0');
-putchar(y + '0');
+putchar(z + '0');
 putchar ("\,");
 putchar (" ");
 }
