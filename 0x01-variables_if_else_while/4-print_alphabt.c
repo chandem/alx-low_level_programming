@@ -12,7 +12,7 @@ for(n='a';n<='z';n++)
 {
 if(n='e')
 continue;
-elseif(n='q')
+else if(n='q')
 continue;
 putchar(n);
 }
