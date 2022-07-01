@@ -20,6 +20,5 @@ for(n='r'; n<='z'; n++)
 {
 putchar(n);
 }
-putchar("\n");
 return 0;
 }
