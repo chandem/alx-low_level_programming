@@ -11,10 +11,9 @@ for(i=0;i<10;i++)
 {      
 putchar(i + '0');
  }
-int j;
-for(j='a';j<='f';j++)
+for(i='a';i<='f';i++)
 {
-putchar(j);
+putchar(i);
 }
 putchar ('\n');
     return 0;
