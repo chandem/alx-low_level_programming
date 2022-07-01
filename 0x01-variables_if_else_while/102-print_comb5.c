@@ -21,8 +21,8 @@ if((x==98)&&(y==99))
 {
 break;
 }
-putchar (',');
-putchar (' ');
+putchar(',');
+putchar(' ');
 }
 } 
 putchar('\n');  
