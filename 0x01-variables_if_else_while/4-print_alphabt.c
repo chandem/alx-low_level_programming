@@ -10,9 +10,9 @@ int main(void)
 int n;
 for(n='a';n<='z';n++)
 {
-if(n='e')
+if(n=='e')
 continue;
-else if(n='q')
+else if(n=='q')
 continue;
 putchar(n);
 }
