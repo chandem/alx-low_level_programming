@@ -10,7 +10,10 @@ int main(void)
 int n;
 for(n='a';n<='z';n++)
 {
-if(n!='e' || n!='q')
+if(n='e')
+continue;
+elseif(n='q')
+continue;
 putchar(n);
 }
 putchar('\n');
