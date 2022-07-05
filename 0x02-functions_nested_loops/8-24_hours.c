@@ -1,5 +1,6 @@
 #include"main.h"
-void jack_bauer(void){
+void jack_bauer(void)
+{
 int j;
 for(j=0;j<=23;j++)
 {
