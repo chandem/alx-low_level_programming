@@ -1,8 +1,8 @@
 #include"main.h"
 /**
- *main - Entry point
+ *print_alphabet_x10 print is function
  *
- *Return: return 0
+ *prints lowercase 10x
  */
 void print_alphabet_x10(void);
 void print_alphabet_x10(void);
