@@ -1,5 +1,7 @@
 #include"main.h"
 /**
+*nested loops
+*
 *function print_alphabet prints lowercase
 */
  void print_alphabet(void);
