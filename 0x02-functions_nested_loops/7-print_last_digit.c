@@ -1,14 +1,17 @@
 #include"main.h"
 int print_last_digit(int r)
 {
+int d;
 if(r>=0)
 {
-_putchar('0' + r%10);
-return (r%10);
+d=r%10;
+_putchar('0' + d);
+return (d);
 }
 if(r<0)
 {
-_putchar('0' + (-1*r)%10);
-return ((-1*r)%10);
+d=-1*(r%10);
+_putchar('0' + d);
+return (d);
 }
 }
