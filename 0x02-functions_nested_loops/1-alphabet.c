@@ -1,9 +1,9 @@
 #include"main.h"
 /**
-*nested loops
-*
-*function print_alphabet prints lowercase
-*/
+ * print_alphabet a to z.
+ * 
+ * Return: Always 0.
+ */
  void print_alphabet(void);
 void print_alphabet(void){
 int i;
