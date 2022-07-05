@@ -1,11 +1,9 @@
 #include"main.h"
-/**
- *main - Entry point
- *
- *Return: return 0
- */
-int main (void)
-{
+print_alphabet();
+void print_alphabet(void){
+int i;
+for(i='a';i<='z';i++){
+putchar(i);
+}
 putchar('\n');
-return 0;
 }
