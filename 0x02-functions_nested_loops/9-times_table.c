@@ -12,6 +12,10 @@ s=i*j;
 if(s<=9)
 {
 _putchar('0' + s);
+if(i==9) 
+{
+break;
+}
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
@@ -21,6 +25,10 @@ else
 {
 _putchar('0' + s/10);
 _putchar('0' + s%10);
+if(i==9) 
+{
+break;
+}
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
