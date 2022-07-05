@@ -8,7 +8,7 @@ d=(r%10);
 _putchar('0' + d);
 return (d);
 }
-if(r<0)
+else
 {
 d=(-1*(r%10));
 _putchar('0' + d);
