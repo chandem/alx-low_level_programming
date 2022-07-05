@@ -6,7 +6,7 @@
  */
 int _islower(int);
 int _islower(int c)
-int r='c';
+int r=c;
 {
 if(islower(r))
 {
