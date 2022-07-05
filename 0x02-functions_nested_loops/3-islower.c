@@ -4,15 +4,15 @@
  *
  *Return: return 0
  */
-int main (void)
-{
-
-}
+int _islower(int);
 int _islower(int c)
 {
 if(c==islower())
 {
 return 1;
-}else;
+}
+else
+{
 return 0;
+}
 }
