@@ -14,6 +14,7 @@ if(s<=9)
 _putchar('0' + s);
 _putchar(',');
 _putchar(' ');
+_putchar(' ');
 
 }
 else
@@ -21,6 +22,7 @@ else
 _putchar('0' + s/10);
 _putchar('0' + s%10);
 _putchar(',');
+_putchar(' ');
 _putchar(' ');
 }
 }
