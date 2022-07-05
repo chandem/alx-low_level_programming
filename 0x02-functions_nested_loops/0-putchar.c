@@ -1,6 +1,10 @@
 #include"main.h"
-
-int main()
+/**
+ *main - Entry point
+ *
+ *Return: return 0
+ */
+int main(void)
 {
 	putchar('-');
 	putchar('p');
