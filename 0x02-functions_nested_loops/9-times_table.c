@@ -6,7 +6,7 @@ int j;
 for(j=0;j<=9;j++)
 {
 int i;
-for(i=1;i<=9;i++)
+for(i=0;i<=9;i++)
 {
 s=i*j;
 if(s<=9)
