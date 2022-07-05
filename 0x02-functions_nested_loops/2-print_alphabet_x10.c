@@ -6,20 +6,20 @@
  */
 int main (void)
 {
-print_alphabet_10x();
-print_alphabet_10x();
-print_alphabet_10x();
-print_alphabet_10x();
-print_alphabet_10x();
-print_alphabet_10x();
-print_alphabet_10x();
-print_alphabet_10x();
-print_alphabet_10x();
-print_alphabet_10x();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
 putchar('\n');
 return 0;
 }
-void print_alphabet_10x(void){
+void print_alphabet_x10(void){
 int i;
 for(i='a';i<='z';i++)
 {
