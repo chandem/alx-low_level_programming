@@ -17,7 +17,7 @@ if(i==9)
 break;
 }
 _putchar(',');
-_putchar('\t');
+_putchar('  ');
 
 
 }
@@ -30,7 +30,7 @@ if(i==9)
 break;
 }
 _putchar(',');
-_putchar('\t');
+_putchar('  ');
 
 }
 }
