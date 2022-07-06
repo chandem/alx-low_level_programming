@@ -11,5 +11,5 @@ void times_table(void);
 int add(int, int);
 void print_to_98(int n);
 void print_times_table(int n)
-void calculate_sum(void)
+void calculate_sum1(void)
 
