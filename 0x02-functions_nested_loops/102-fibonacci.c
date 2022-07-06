@@ -1,14 +1,21 @@
 #include<stdio.h>
 int main(void)
 {
-
-int sum=0;
-int i;
-for(i=0;i<50;i++)
-{
-sum=sum+i;
-}
-printf ("%d",sum);
+int i,c;
+int a=0;
+int b=1;
+for (i = 0; i < 50; c++)
+  {
+    if (i <= 1)
+       c= i;
+    else
+    {
+      c=a + b;
+      a=b;
+      b =c;
+    }
+    printf("%d", c);
+  }
 printf("\n");
 return 0;
 }
