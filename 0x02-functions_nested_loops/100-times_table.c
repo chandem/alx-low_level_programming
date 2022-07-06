@@ -1,11 +1,7 @@
 #include"main.h"
 void print_times_table(int n)
 {
-if((n<0)||(n<15))
-{
-break;
-}
-else
+if((n>=0)&&(n<=15))
 {
 int s;
 int j;
@@ -26,7 +22,7 @@ if (i!= 0)
 _putchar (' ');
 _putchar ((s % 10) + '0');
 }
-if (i < 9)
+if (i < n)
 {
 _putchar(',');
 _putchar (' ');
@@ -36,7 +32,7 @@ else
 {
 _putchar ((s / 10) + '0');
 _putchar ((s % 10) + '0');
-if (i < 9)
+if (i < n)
 {
 _putchar(',');
 _putchar (' ');
@@ -46,4 +42,4 @@ _putchar (' ');
 _putchar ('\n');
 }
 }
-}
+
