@@ -4,9 +4,9 @@ int main(void)
 int i,c;
 int a=0;
 int b=1;
-for (i = 1; i < 50; c++)
+for (i = 1; i<50; c++)
   {
-    if (i= 1)
+    if (i==1)
 {
    c=i;
 }
