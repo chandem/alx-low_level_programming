@@ -2,7 +2,7 @@
 int main(void)
 {
 int i;
-long int c;
+long c;
 int a=0;
 int b=1;
 for (i = 1; i<=50; i++)
