@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main(void)
 {
 int i;
 int sum =0;
@@ -11,5 +11,5 @@ if((i%3!=0)||(i%5!=0))
 }
 }
 printf("%d",sum);
-printf('\n');
+printf("\n");
 }
