@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(void)
 {
-int i,c;
+int i;
+long long c;
 int a=0;
 int b=1;
 for (i = 1; i<=50; i++)
