@@ -11,35 +11,13 @@ int i;
 for(i=0;i<=n;i++)
 {
 s=i*j;
-if ((s / 10) == 0)
-{
-if (i == 0)
-{
-_putchar ('0');
-}
-if (i!= 0)
-{
-_putchar (' ');
-_putchar ((s % 10) + '0');
-}
-if (i < 9)
-{
-_putchar(',');
-_putchar (' ');
-}
-}
-else
-{
 _putchar ((s / 10) + '0');
 _putchar ((s % 10) + '0');
-if (i < 9)
-{
 _putchar(',');
 _putchar (' ');
-}
-}
 }
 _putchar ('\n');
 }
 }
 }
+
