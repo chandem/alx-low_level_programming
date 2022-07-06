@@ -2,7 +2,7 @@
 int main(void)
 {
 int i;
-long long c;
+int c;
 int a=0;
 int b=1;
 for (i = 1; i<=50; i++)
@@ -10,7 +10,7 @@ for (i = 1; i<=50; i++)
       c=a+b;
       a=b;
       b=c;
-printf("%lld", c);
+printf("%d", c);
 if(i==50)
 {
 break;
