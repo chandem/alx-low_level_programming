@@ -6,8 +6,10 @@ int a=0;
 int b=1;
 for (i = 0; i < 50; c++)
   {
-    if (i <= 1)
-       c= i;
+    if (i<= 1)
+{
+   c=i;
+}
     else
     {
       c=a + b;
