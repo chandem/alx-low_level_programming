@@ -4,18 +4,11 @@ int main(void)
 int i,c;
 int a=0;
 int b=1;
-for (i = 1; i<50; c++)
+for (i = 1; i<50; i++)
   {
-    if (i==1)
-{
-   c=i;
-}
-    else
-    {
-      c=a + b;
+      c=a+b;
       a=b;
-      b =c;
-    }
+      b=c;
     printf("%d", c);
   }
 printf("\n");
