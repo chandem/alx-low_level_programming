@@ -10,6 +10,7 @@ for (i = 1; i<50; i++)
       a=b;
       b=c;
     printf("%d", c);
+    printf(", ");
   }
 printf("\n");
 return 0;
