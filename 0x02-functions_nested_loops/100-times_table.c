@@ -17,12 +17,12 @@ if (i == 0)
 {
 _putchar ('0');
 }
-else if (i!= 0)
+if (i!= 0)
 {
 _putchar (' ');
 _putchar ((s % 10) + '0');
 }
-else 
+else
 {
 _putchar(',');
 _putchar (' ');
@@ -32,7 +32,7 @@ else
 {
 _putchar ((s / 10) + '0');
 _putchar ((s % 10) + '0');
-if (i < n)
+if (i=n)
 {
 _putchar(',');
 _putchar (' ');
