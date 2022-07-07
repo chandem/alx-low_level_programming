@@ -14,9 +14,13 @@ else
 int i;
 for(i=0;i<n;i++)
 {
-_putchar('\');
+_putchar('\\');
 _putchar('\n');
 _putchar(' ');
+for(int j=0;j<i;j++)
+{
+_putchar(' ');
+}
 }
 _putchar('\n');
 }
