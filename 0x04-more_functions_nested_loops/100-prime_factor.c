@@ -6,8 +6,8 @@
  */
 int main(void)
 {
- int unsigned long r=612852475143;
-int unsigned long i;
+ unsigned long r=612852475143;
+unsigned long i;
 for(i=2;i<r;i++)
 {
 while(r%i==0)
