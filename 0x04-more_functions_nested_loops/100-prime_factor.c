@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main(void)
 {
-unsigned long int r=612852475143;
-int i;
-int prime;
-for(i=1;i<r;i++)
+int unsigned long r=612852475143LU;
+int unsigned long i;
+int unsigned long prime=0LU;
+for(i=1LU;i<r;i++)
+if(r%i==0)
 {
 prime=i;
 }
-printf("%d",prime);
+printf("%llu",prime);
 return 0;
 }
