@@ -14,7 +14,7 @@ for(i=1;i<(size-j);i++)
 {
 _putchar(' ');
 }
-for(z=0;z<j+1;z++)
+for(z=0;z<(j+1);z++)
 {
 _putchar('#');
 }
