@@ -2,9 +2,10 @@
 int main(void)
 {
 int n;
+int check;
 n=1;
-positive_or_negative(n);
-
+check=positive_or_negative(n);
+printf("%d check",check);
 return 0;
 }
 
