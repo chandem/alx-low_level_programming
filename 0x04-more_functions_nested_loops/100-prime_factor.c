@@ -13,5 +13,5 @@ prime=(r/i);
 
 }
 printf ("%d",prime);
-return 0
+return 0;
 }
