@@ -20,12 +20,16 @@ if(i==0)
 {
 _putchar(' ');
 }
+else
+{
 for(int j=0;j<i;j++)
 {
 _putchar(' ');
 }
 }
+}
 _putchar('\n');
+}
 }
 }
 
