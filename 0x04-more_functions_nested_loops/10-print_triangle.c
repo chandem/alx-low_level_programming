@@ -9,9 +9,15 @@ int j;
 for(j=0;j<size;j++)
 {
 int i;
-for(i=j;i<size;i++)
+for(i=1;i<size-j;i++)
 {
 _putchar(' ');
 }
+int z;
+for(z=0;z<j+1;z++)
+{
+_putchar('#');
+}
+_putchar('\n');
 }
 }
