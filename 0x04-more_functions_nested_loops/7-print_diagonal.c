@@ -22,16 +22,17 @@ _putchar(' ');
 }
 else
 {
-for(int j=0;j<i;j++)
+int j;
+for(j=0;j<i;j++)
 {
 _putchar(' ');
 }
 }
 }
+}
 _putchar('\n');
 }
-}
-}
+
 
 
 
