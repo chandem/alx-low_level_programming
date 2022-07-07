@@ -1,7 +1,7 @@
-include"main.h"
+#include"main.h"
 /**
-*@c -check weather the input is digit or not
-*
+*@c is input parameter.
+*@_isdigit is functions that check weather the input is digit or not
 */
 int _isdigit(int c)
 {
