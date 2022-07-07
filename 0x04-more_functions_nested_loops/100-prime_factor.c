@@ -6,8 +6,8 @@
  */
 int main(void)
 {
- long r=612852475143;
-long i;
+ int unsigned long r=612852475143;
+int unsigned long i;
 for(i=2;i<r;i++)
 {
 while(r%i==0)
@@ -15,6 +15,6 @@ while(r%i==0)
 r=r/i;
 }
 }
-printf("%lu",r);
+printf("%llu",r);
 return 0;
 }
