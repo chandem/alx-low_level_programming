@@ -28,9 +28,14 @@ _putchar(' ');
 }
 _putchar('\\');
 }
+if(i==n)
+{
+break;
+}
 _putchar('\n');
 }
 }
+
 _putchar('\n');
 }
 
