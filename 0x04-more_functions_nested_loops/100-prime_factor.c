@@ -12,6 +12,6 @@ prime=(r/i);
 }
 
 }
-printf ("%d",prime);
+printf("%d",prime);
 return 0;
 }
