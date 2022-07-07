@@ -15,6 +15,6 @@ while(r%i==0)
 r=r/i;
 }
 }
-printf("%llu",r);
+printf("%lu",r);
 return 0;
 }
