@@ -1,7 +1,7 @@
 #include"main.h"
 /**
-*@c- is input parameter.
-*_isupper is function that check uppercase letters.
+*@c is input parameter.
+*@ _isupper is function that check uppercase letters.
 */
 int _isupper(int c)
 {
