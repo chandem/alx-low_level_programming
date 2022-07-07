@@ -1,4 +1,4 @@
-include"main.h"
+#include"main.h"
 /**
 *@n is input parameter
 *@print_line is function that prints line 
