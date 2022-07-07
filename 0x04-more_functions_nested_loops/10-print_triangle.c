@@ -1,11 +1,17 @@
 #include"main.h"
 /**
-*@a is input parameter
-*@b is input parameter
-*function returns the multiplication of two number
+*@size is input parameter
+*@print_traingle is function that prints triangle
 */
-int mul(int a, int b)
+void print_triangle(int size)
 {
-int mult=a*b;
-return mult;
+int j;
+for(j=0;j<size;j++)
+{
+int i;
+for(i=j;i<size;i++)
+{
+_putchar(' ');
+}
+}
 }
