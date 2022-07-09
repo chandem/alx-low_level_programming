@@ -1,6 +1,6 @@
 #include"main.h"
 /**
-*@more_numbers function that prints number from 0 to 9
+*more_numbers -function that prints number from 0 to 9
 */
 void more_numbers(void)
 {
