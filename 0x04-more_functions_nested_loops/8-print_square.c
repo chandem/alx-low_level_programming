@@ -1,6 +1,5 @@
 #include"main.h"
 /**
-
 *print_square -is function that prints diagonal line
 *@n: is input parameter 
 */
