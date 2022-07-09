@@ -1,7 +1,7 @@
 #include"main.h"
 /**
 *print_line -is function that prints line
-*@n is input parameter 
+*@n: is input parameter 
 */
 void print_line(int n)
 {
