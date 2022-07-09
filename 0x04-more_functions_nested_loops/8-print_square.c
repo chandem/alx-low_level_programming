@@ -1,7 +1,7 @@
 #include"main.h"
 /**
 *print_square -is function that prints diagonal line
-*@n: is input parameter 
+*@size: is input parameter 
 */
 void print_square(int size)
 {
