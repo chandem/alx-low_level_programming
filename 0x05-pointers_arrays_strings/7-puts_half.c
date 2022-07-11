@@ -13,6 +13,7 @@ i=i/2;
 while(i>=0)
 {
 _putchar(t[i]);
+i++;
 }
 _putchar('\n');
 }
