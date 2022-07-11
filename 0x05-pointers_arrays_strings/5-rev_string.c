@@ -10,7 +10,7 @@ int i;
 for(i=0;t[i]!='\0';i++);
 while(i>=0)
 {
-_putchar(t[i]);
+puts(t[i]);
 i++;
 }
 _putchar('\n');
