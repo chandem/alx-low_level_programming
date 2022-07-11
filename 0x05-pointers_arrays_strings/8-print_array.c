@@ -5,5 +5,10 @@
 */
 void print_array(int *a, int n)
 {
-arry t[n];
+int i;
+for(i=;i<n;i++){
+printf("%d",a[i]);
+_putchar(',');
+_putchar(' ');
+}
 }
