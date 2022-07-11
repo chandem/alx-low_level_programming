@@ -1,4 +1,5 @@
 #include"main.h"
+#include<stdlib.h>
 /**
 *_atoi - changes string into integer.
 *s: is input parameter
