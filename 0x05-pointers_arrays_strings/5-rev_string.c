@@ -9,7 +9,7 @@ char *t=s;
 int i;
 int j;
 for(i=0;t[i]!='\0';i++);
-for(int j=0;j<i;j++)
+for(j=0;j<i;j++)
 {
 t[j]=t[i--];
 }
