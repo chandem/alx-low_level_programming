@@ -1,5 +1,5 @@
 #include"main.h"
-#include<stdio.h>
+#include<string.h>
 /**
 *print_array -prints the array  of given number
 *@dest: is input parameter.
