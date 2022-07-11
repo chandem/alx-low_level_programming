@@ -10,9 +10,10 @@ int i;
 int j;
 for(i=0;t[i]!='\0';i++);
 i=i-1;
-for(j=i;j>=0;j--)
+j=-1;
+while(i>=0)
 {
-t[i-j]=t[i];
+t[j++]=t[i];
 }
 _putchar('\n');
 }
