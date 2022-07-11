@@ -11,7 +11,7 @@ int j;
 for(i=0;t[i]!='\0';i++);
 i=i-1;
 j=i;
-while(i>0)
+while(i>=0)
 {
 t[j-i]=t[i];
 i--;
