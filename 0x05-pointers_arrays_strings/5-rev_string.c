@@ -15,4 +15,5 @@ for(j=0;j<i;j++)
 m[j]=t[i--];
 }
 t=m;
+puts(t);
 }
