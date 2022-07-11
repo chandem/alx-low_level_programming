@@ -12,7 +12,7 @@ i=i-1;
 while(i>0)
 {
 _putchar(t[i]);
---i;
+i--;
 }
 _putchar('\n');
 }
