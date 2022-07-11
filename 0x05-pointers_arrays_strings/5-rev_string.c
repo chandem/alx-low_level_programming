@@ -10,8 +10,8 @@ int i;
 for(i=0;t[i]!='\0';i++);
 while(i>=0)
 {
-puts(t[i]);
-i++;
+_putchar(t[i]);
+i--;
 }
 _putchar('\n');
 }
