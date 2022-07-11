@@ -11,7 +11,7 @@ for(i=0;t[i]!='\0';i++);
 while(i>=0)
 {
 _putchar(t[i]);
-i++;
+--i;
 }
 _putchar('\n');
 }
