@@ -6,8 +6,8 @@
 void print_rev(char *s)
 {
 char *t=s;
-int i;
-for(i=0;t[i]!='\0';i++)
+int i=;
+for(i=strlen(t);t[i]!='\0';i--)
 {
 _putchar(t[i]);
 }
