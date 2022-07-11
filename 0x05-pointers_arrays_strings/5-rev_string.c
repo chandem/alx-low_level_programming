@@ -1,5 +1,5 @@
 #include"main.h"
-**/
+/**
 *print_string -prints the string of given char. on stdout.
 *@s: is input parameter.
 */
