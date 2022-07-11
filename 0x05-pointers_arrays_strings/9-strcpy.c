@@ -8,5 +8,5 @@
 */
 char *_strcpy(char *dest, char *src)
 {
-memcpy(src,dest,sizeof(dest));
+memcpy(dest,src,strlen(src)+1);
 }
