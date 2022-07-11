@@ -1,8 +1,8 @@
 #include"main.h"
 /**
-*_strlen -returns the length of characters.
+*_strlen -returns the length of characters integer value..
 *@s: is input parameter
-*_strlen return: integer value.
+*Return -integer value.
 */
 int _strlen(char *s)
 {
