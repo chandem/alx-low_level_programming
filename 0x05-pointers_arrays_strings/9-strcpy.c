@@ -21,6 +21,4 @@ j++;
 dest[j] = '\0';
 
 return (dest);
-
-}
 }
