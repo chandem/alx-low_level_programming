@@ -1,12 +1,11 @@
 #include"main.h"
 /**
-*_strlen - returns the length of characters.
+*_atoi - changes string into integer.
 *s: is input parameter
 */
-int _strlen(char *s)
+int _atoi(char *s)
 {
-    char s[] = *s;
     int i;
-    for (i = 0; s[i] != '\0'; ++i);
+i=atoi(s);
 return i;
 }
