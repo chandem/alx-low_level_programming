@@ -7,10 +7,11 @@
 */
 void print_array(int *a, int n)
 {
+int *t[n]=a;
 int i;
 for(i=0;i<n;i++)
 {
-printf("%d",a[i]);
+printf("%d",t[i]);
 _putchar(',');
 _putchar(' ');
 }
