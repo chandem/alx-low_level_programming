@@ -1,6 +1,6 @@
 include"main.h"
 **
-*print_rev -prints the string of given char. on stdout.
+*print_string -prints the string of given char. on stdout.
 *@s: is input parameter.
 */
 void rev_string(char *s)
@@ -11,7 +11,7 @@ for(i=0;t[i]!='\0';i++);
 while(i>=0)
 {
 _putchar(t[i]);
-i--;
+--i;
 }
 _putchar('\n');
 }
