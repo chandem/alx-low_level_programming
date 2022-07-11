@@ -4,10 +4,23 @@
 *_strcpy -copy string pointed by src to dest.
 *@dest: is input parameter.
 *@src: is input parameter.
-*Return: char
+*Return: dest
 */
 char *_strcpy(char *dest, char *src)
 {
-memset(dest,'\0',sizeof(dest));
-strcpy(dest,src);
+
+int j;
+
+j = 0;
+
+while (src[j] != '\0')
+{
+dest[j] = src[j];
+j++;
+}
+dest[j] = '\0';
+
+return (dest);
+
+}
 }
