@@ -5,5 +5,11 @@ include"main.h"
 */
 void rev_string(char *s)
 {
-
+char *t=s;
+int i;
+for(i=0;t[i]!='\0';i++);
+while(i>=0)
+{
+_putchar(t[i]);
+}
 }
