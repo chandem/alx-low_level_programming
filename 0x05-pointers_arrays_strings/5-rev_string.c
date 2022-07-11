@@ -11,8 +11,8 @@ int i;
 int j;
 int z;
 int k;
-k=i;
 for(i=0;t[i]!='\0';i++);
+k=i;
 for(j=0;j<i;j++)
 {
 m[j]=t[i--];
