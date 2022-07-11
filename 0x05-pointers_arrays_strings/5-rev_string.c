@@ -13,5 +13,4 @@ for(j=0;j<i;j++)
 {
 t[j]=t[i--];
 }
-_putchar('\n');
 }
