@@ -2,7 +2,7 @@
 /**
 *_strlen -returns the length of characters.
 *@s: is input parameter
-*return: integer value
+*_strlen return: integer value.
 */
 int _strlen(char *s)
 {
