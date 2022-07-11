@@ -11,7 +11,9 @@ char *t=str;
 for(i=0;t[i]!='\0';i++);
 for(j=0;j<i;j++)
 {
+if(j%2==0){
 _putchar(t[j]);
+}
 }
 _putchar('\n');
 }
