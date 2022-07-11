@@ -9,11 +9,17 @@ char *t=s;
 char *m="";
 int i;
 int j;
+int z;
+int k;
+k=i;
 for(i=0;t[i]!='\0';i++);
 for(j=0;j<i;j++)
 {
 m[j]=t[i--];
 }
 t=m;
-puts(t);
+for(z=0;z<k;z++)
+{
+_putchar(t[z]);
+}
 }
