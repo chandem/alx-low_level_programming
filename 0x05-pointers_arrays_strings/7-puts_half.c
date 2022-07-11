@@ -18,8 +18,7 @@ _putchar(t[j]);
 }
 else
 {
-i=i-1;
-for(j=i/2;j<i;j++)
+for(j=(i+1)/2;j<i;j++)
 {
 _putchar(t[j]);
 }
