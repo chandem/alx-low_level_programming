@@ -1,7 +1,7 @@
 #include"main.h"
 #include<string.h>
 /**
-*print_array -prints the array  of given number
+*_strcpy -copy string pointed by src to dest.
 *@dest: is input parameter.
 *@src: is input parameter.
 *Return: char
