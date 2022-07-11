@@ -7,12 +7,9 @@
 */
 void print_array(int *a, int n)
 {
-int *t[n]=a;
 int i;
 for(i=0;i<n;i++)
 {
-printf("%d",t[i]);
-_putchar(',');
-_putchar(' ');
+printf("%d",a[i]);
 }
 }
