@@ -8,5 +8,6 @@
 */
 char *_strcpy(char *dest, char *src)
 {
+memset(dest,'\0',sizeof(dest));
 strcpy(dest,src);
 }
