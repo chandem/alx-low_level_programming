@@ -9,7 +9,6 @@ char *t=str;
 int i;
 int j;
 for(i=0;t[i]!='\0';i++);
-i=i-1;
 for(j=i/2;j<i;j++)
 {
 _putchar(t[j]);
