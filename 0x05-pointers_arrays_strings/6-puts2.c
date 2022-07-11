@@ -5,10 +5,10 @@
 */
 void puts2(char *str)
 {
-char *t=str;
 int i;
-for(i=0;t[i]!='\0';i++);
 int j;
+char *t=str;
+for(i=0;t[i]!='\0';i++);
 for(j=0;j<i;j++)
 {
 _putchar(t[j]);
