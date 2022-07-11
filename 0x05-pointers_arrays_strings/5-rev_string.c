@@ -14,6 +14,7 @@ j=-1;
 while(i>=0)
 {
 t[j++]=t[i];
+i--;
 }
 _putchar('\n');
 }
