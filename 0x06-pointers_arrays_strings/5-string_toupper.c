@@ -2,7 +2,7 @@
 /**
 *string_toupper -The function change uppercase letters to lowercase.
 *@s: it is input parameter.
-*return:(char*)s. 
+*Return: (char*)s. 
 */ 
 char *string_toupper(char *s)
 {
