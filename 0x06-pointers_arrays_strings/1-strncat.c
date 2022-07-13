@@ -20,5 +20,5 @@ i++;
      s1[i] = s2[j];
   }
 s1[i+1]='\0';
-return (char*)s1;
+return (char)s1;
 }
