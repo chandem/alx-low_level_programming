@@ -15,7 +15,7 @@ i=i-1;
   for (j = 0;j<n && dest[j]!='\0'; j++)
   {
 i++;
-     s1[i] = s2[j];
+     dest[i] = src[j];
   }
 dest[i+1]='\0';
 return (char*)dest;
