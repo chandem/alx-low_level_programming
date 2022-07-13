@@ -1,6 +1,6 @@
 #include"main.h"
 /**
-*_strcat -The function concatenate string s.
+*_strncat -The function concatenate string.
 *@dest: it is destination parameter where the string appended
 *@src: it is  source parameter where the string copied.
 *@n: it is input parameter.
@@ -9,7 +9,7 @@
 char *_strncat(char *dest, char *src, int n)
 {
 char s1[n]=dest;
-char s2[]=src;
+char s2[n]=src;
 int i;
 int j;
 for (i = 0; s1[i]!='\0'; i++);
