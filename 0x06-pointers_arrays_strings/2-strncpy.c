@@ -1,6 +1,6 @@
 #include"main.h"
 /**
-*_strncpy -The function concatenate string s.
+*_strncpy -The function copy string from source to destination..
 *@dest: it is destination parameter where the string appended
 *@src: it is  source parameter where the string copied.
 *@n: it is input parameter.
@@ -9,7 +9,7 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 int j;
-for (j = 0; j<=n && src[j]!='\0'; j++)
+for (j = 0; j<n && src[j]!='\0'; j++)
   {
      dest[j] = src[j];
   }
