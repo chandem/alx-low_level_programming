@@ -8,8 +8,8 @@
 */ 
 char *_strncat(char *dest, char *src, int n)
 {
-char *s1[n]=dest;
-char *s2[n]=src;
+char s1[n]=dest;
+char s2[n]=src;
 int i;
 int j;
 for (i = 0; s1[i]!='\0'; i++);
