@@ -19,6 +19,6 @@ i++;
      dest[i] = src[j];
   }
 dest[i+1]='\n';
-return (char)dest;
+return (char*)dest;
  
 }
