@@ -10,7 +10,7 @@ int _strcmp(char *s1, char *s2)
 int i;
 int j;
 int z;
-int a=0;
+int a=0;;
 for(j=0;s1[j]!='\0';j++);
 for(i=0;s2[i]!='\0';i++);
 if(j==i)
@@ -26,14 +26,13 @@ return 0;
 }
 else
 {
-return s1;
-return s2;
+return (i+j);;
+
 }
 }
 else
 {
-return s1;
-return s2;
+return(i+j);
 }
 
 }
