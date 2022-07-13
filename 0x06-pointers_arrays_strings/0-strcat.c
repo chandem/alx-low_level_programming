@@ -17,6 +17,6 @@ i++;
      dest[i] = src[j];
   }
 dest[i+1]='\0';
-return dest;
+return (char*)dest;
  
 }
