@@ -8,6 +8,6 @@
 */ 
 char *_strncat(char *dest, char *src, int n)
 {
-strncat(dest,src,strlen(src);
+strncat(dest,src,n);
 return (char*)dest;
 }
