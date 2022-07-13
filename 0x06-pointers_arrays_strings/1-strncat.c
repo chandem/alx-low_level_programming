@@ -9,4 +9,5 @@
 char *_strncat(char *dest, char *src, int n)
 {
 strncat(dest,src,strlen(src);
+return (char*)dest;
 }
