@@ -14,5 +14,5 @@ while (s[i] != '\0')
       i++;
    }
    return (char*)s;
-}
+
 }
