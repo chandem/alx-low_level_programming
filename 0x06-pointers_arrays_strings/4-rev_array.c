@@ -6,20 +6,10 @@
 */ 
 void reverse_array(int *a, int n)
 {
-int p[n];
-int i;
-i= n-1;
-int j; 
-j=-1;
-int z;
-while(i>=0)
-{
-j++;
-p[j]=a[i];
-i--;
-}
-for(z=0;z<n;z++)
-{
-a[z]=p[z];
-}
+int temp;
+    for(int i = 0; i<n/2; i++){
+        temp = a[i];
+        a[i] = a[n-i-1];
+        a[n-i-1] = temp;
+    }
 }
