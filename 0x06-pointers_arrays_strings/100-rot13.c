@@ -2,6 +2,7 @@
 /**
 *rot13 -The function encodes to rot13.
 *@s: it is input parameter.
+*Return: (char*)s 
 */ 
 char *rot13(char *s)
 {
