@@ -7,8 +7,8 @@
 void print_buffer(char *b, int size)
 {
 int i;
-for(i=0;i<size && b[i]!='\0';i++)
+for(i=0;i<size;i++)
 {
-return b[i];
+b[i];
 }
 }
