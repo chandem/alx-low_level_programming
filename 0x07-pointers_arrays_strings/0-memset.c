@@ -4,7 +4,7 @@
 *@b: input parameter.
 *@s: input parameter.
 *@n: input parameter.
-*Return: (char*)s.
+*Return: (char)s.
 */
 char *_memset(char *s, char b, unsigned int n)
 {
