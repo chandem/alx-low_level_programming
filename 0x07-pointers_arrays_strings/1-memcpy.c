@@ -4,7 +4,7 @@
 *@dest: input parameter.
 *@src: input parameter.
 *@n: input parameter.
-*Return: (char*)s.
+*Return: (char*)dest.
 */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
