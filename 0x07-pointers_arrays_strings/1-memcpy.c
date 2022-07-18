@@ -1,12 +1,17 @@
 #include"main.h"
+/**
+*_memcpy -The functions that copy string.
+*@dest: input parameter.
+*@src: input parameter.
+*@n: input parameter.
+*Return: (char*)s.
+*/
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-int i;
+
 int j;
-for(i=0;src[i]!='\0';i++);
-i=i-1;
-for(j=0;j<i;j++)
+for(j=0;j<n&src[j]!='\0';j++)
 {
 dest[j]=src[j];
 }
