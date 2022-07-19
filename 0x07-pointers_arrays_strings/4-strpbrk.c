@@ -20,7 +20,7 @@ return s;
 }
 k++;
 }
-s++
+s++;
 }
 return 0;
 }
