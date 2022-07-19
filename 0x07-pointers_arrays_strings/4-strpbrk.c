@@ -17,16 +17,15 @@ for(k=0;s[k]!='\0';k+i-1)
 z=0;
 for(j=0;j<i;j++)
 {
-if(accept[j]==s[k])
+if(accept[j]==s[k+j])
 {
 z++;
 }
-if(z==j) 
+if(z==i-1) 
 {
 return s;
 }
 }
 }
 return 0;
-}
 }
