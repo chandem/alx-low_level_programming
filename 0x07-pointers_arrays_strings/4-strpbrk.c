@@ -22,10 +22,11 @@ if(accept[j]==s[k+j])
 {
 z++;
 }
+}
 if(z==i-1) 
 {
 return (char*)s;
-}
+break;
 }
 k+i;
 }
