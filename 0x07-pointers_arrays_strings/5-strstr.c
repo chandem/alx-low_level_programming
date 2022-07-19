@@ -13,13 +13,13 @@ z=0;
 k=0;
 while(needle[k]!='\0')
 {
-if(needle[k]==haystack[i])
+if(needle[k]==haystack[i+k])
 {
 z++;
 }
 if(z==j-1)
 {
-return (char*)needle;
+return needle;
 }
 k++;
 }
