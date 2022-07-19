@@ -30,5 +30,4 @@ return (char*)s;
 
 k+i;
 }
-return 0;
 }
