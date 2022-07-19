@@ -1,6 +1,6 @@
 #include"main.h"
 /**
-*_strpn -function that return the first prefix string 
+*_strspn -function that return the first prefix string 
 *@s: input parameter.
 *@accept: input parameter.
 *Return: unsigned int.
@@ -18,5 +18,5 @@ if(accept[j]==s[j])
 z++;
 }
 }
-return (z+1);
+return (z);
 }
