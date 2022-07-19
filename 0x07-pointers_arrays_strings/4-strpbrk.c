@@ -26,8 +26,8 @@ z++;
 if(z==i-1) 
 {
 return (char*)s;
-break;
 }
+
 k+i;
 }
 return 0;
