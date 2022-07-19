@@ -11,21 +11,19 @@ int i;
 int j;
 int z;
 int k;
-for(i=0;accept[i]!='\0';i++);
+i=0;
+while(accept [i]!='\0')
+{
 k=0;
-while (s[k]!='\0')
+while(s[k]!='\0')
 {
-for(z=0;j=0;j<i;j++)
+if(accept[i]==s[k])
 {
-if(accept[j]==s[k+j])
-{
-z++;
+return accept[i];
 }
+k++;
 }
-if(z==i-1) 
-{
-return (char*)s;
+i++
 }
-k+i;
-}
+return 0;
 }
