@@ -6,7 +6,6 @@ int k;
 int z;
 int j;
 i=0;
-j=0;
 for(j=0;needle[j]!='\0';j++);
 while(haystack[i]!='\0')
 {
@@ -22,9 +21,9 @@ k++;
 }
 if(z==j-1)
 {
-return needle;
+return (char*)needle;
 }
 i++
 }
 }
-}
+
