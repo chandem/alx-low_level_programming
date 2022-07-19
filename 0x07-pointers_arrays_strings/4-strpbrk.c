@@ -3,7 +3,7 @@
 *_strpbrk -function that return the first prefix string 
 *@s: input parameter.
 *@accept: input parameter.
-*Return: (char*)s.
+*Return: (char)s.
 */
 char *_strpbrk(char *s, char *accept)
 {
@@ -12,7 +12,8 @@ int j;
 int z;
 int k;
 for(i=0;accept[i]!='\0';i++);
-for(k=0;s[k]!='\0';k+i-1)
+k=0;
+while (s[k]!='\0')
 {
 z=0;
 for(j=0;j<i;j++)
@@ -23,9 +24,10 @@ z++;
 }
 if(z==i-1) 
 {
-return s;
+return (char*)s;
 }
 }
+k+i;
 }
 return 0;
 }
