@@ -17,11 +17,11 @@ if(needle[k]==haystack[i])
 {
 z++;
 }
-k++;
-}
 if(z==j-1)
 {
 return (char*)needle;
+}
+k++;
 }
 i++
 }
