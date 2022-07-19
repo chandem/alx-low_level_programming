@@ -14,9 +14,9 @@ while(*s!='\0')
 k=0;
 while(accept[k]!='\0')
 {
-if(accept[k]==*s)
+if(*s==accept[k])
 {
-return (char*)s;
+return s;
 }
 k++;
 }
