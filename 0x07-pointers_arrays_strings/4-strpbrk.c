@@ -15,8 +15,7 @@ for(i=0;accept[i]!='\0';i++);
 k=0;
 while (s[k]!='\0')
 {
-z=0;
-for(j=0;j<i;j++)
+for(z=0;j=0;j<i;j++)
 {
 if(accept[j]==s[k+j])
 {
@@ -27,7 +26,6 @@ if(z==i-1)
 {
 return (char*)s;
 }
-
 k+i;
 }
 }
