@@ -18,5 +18,5 @@ if(accept[j]==s[j])
 z++;
 }
 }
-return (z+1);
+return (z);
 }
