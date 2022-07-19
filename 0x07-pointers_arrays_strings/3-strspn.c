@@ -3,7 +3,6 @@
 *_strspn -function that return the first prefix string 
 *@s: input parameter.
 *@accept: input parameter.
-*Return:unsigned int.
 */
 unsigned int _strspn(char *s, char *accept)
 {
