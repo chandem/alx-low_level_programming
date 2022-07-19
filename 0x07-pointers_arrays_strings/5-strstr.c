@@ -3,6 +3,7 @@
 *_strstr -function that search string.
 *@haystack: input parameter.
 *@needle: input parameter.
+*Return: char*.
 */
 char *_strstr(char *haystack, char *needle)
 {
