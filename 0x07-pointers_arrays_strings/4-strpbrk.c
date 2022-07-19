@@ -10,14 +10,14 @@ char *_strpbrk(char *s, char *accept)
 int i;
 int k;
 i=0;
-while(accept[i]!='\0')
+while(s[i]!='\0')
 {
 k=0;
-while(s[k]!='\0')
+while(accept[k]!='\0')
 {
-if(accept[i]==s[k])
+if(accept[k]==s[i])
 {
-return *s;
+return (char*)s;
 }
 k++;
 }
