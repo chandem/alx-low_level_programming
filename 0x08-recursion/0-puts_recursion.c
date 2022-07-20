@@ -4,6 +4,6 @@
 *@s: input parameter.
 */
 void _puts_recursion(char *s)
-{
+{ 
 
 }
