@@ -9,6 +9,6 @@ _putchar(*s);
 s++;
 if(*s!='\0')
 {
-_put_recursion(s);
+_puts_recursion(s);
 }
 }
