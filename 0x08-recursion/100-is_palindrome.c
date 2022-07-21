@@ -6,10 +6,14 @@
 */
 int is_palindrome(char *s)
 {
+char r=*s;
 if(*s!='\0')
 {
-if(is_palindrome(s)==is_palindrome(s+1))
+is_palindrome(s+1);
 {
+char e=*s;
+if(r==e)
+}
 return 1;
 }
 else
