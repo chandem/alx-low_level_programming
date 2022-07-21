@@ -8,7 +8,7 @@ int is_palindrome(char *s)
 {
 if(*s!='\0')
 {
-if(_puts_recursion(s)==_print_rev_recursion(s))
+if(is_palindrome(s)==is_palindrome(s+1))
 {
 return 1;
 }
