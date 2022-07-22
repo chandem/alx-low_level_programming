@@ -13,7 +13,7 @@ printf("%s\n","error");
 return 1;
 }
 int r;
-r= argv[1]*argv[2];
+r= (int)argv[1]*(int)argv[2];
 printf("%d\n",r);
 
 return 0;
