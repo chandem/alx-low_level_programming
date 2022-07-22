@@ -16,12 +16,11 @@ return 1;
 else
 {
 int i,j;
-i= atoi argv[1];
-j= atoi argv[2];
+i= atoi(argv[1]);
+j= atoi(argv[2]);
 int r;
 r= i*j;
 printf("%d\n",r);
-
 return 0;
 }
 }
