@@ -12,6 +12,7 @@ if(argc<3)
 printf("%s\n","error");
 return 1;
 }
+(void)argc;
 else
 {
 int r;
