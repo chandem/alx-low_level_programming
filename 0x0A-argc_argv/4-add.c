@@ -14,11 +14,11 @@ if(argc==1)
 {
 printf ("%d\n","0");
 }
-if(argv[1]
 {
-r= (int)argv[1]+(int)argv[2];
+i=atoi(argv[1]);
+j=atoi(argv[2]);
+r=i+j;
 printf("%d\n",r);
-
 return 0;
 }
 else
