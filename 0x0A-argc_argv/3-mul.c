@@ -8,12 +8,12 @@
 */
 int main (int argc ,char *argv[])
 {
+int i,j;
+int r;
 if(argc==3)
 {
-int i,j;
 i= atoi(argv[1]);
 j= atoi(argv[2]);
-int r;
 r= i*j;
 printf("%d\n",r);
 return 0;
