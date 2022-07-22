@@ -15,8 +15,6 @@ if(argc==1)
 {
 printf ("%d\n","0");
 }
-else
-
 else if((argv[1]>='0' && argv[1]<='9') && (argv[2]>='0' && argv[2]<='9')) 
 {
 i=atoi(argv[1]);
