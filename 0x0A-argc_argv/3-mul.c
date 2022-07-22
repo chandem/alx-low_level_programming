@@ -12,11 +12,13 @@ if(argc<3)
 printf("%s\n","error");
 return 1;
 }
-(void)argc;
 else
 {
+int i,j;
+int i= atoi argv[1];
+int j=atoi argv[2];
 int r;
-r= (int)argv[1]*(int)argv[2];
+r= i*j;
 printf("%d\n",r);
 
 return 0;
