@@ -8,12 +8,7 @@
 */
 int main (int argc ,char *argv[])
 {
-if(argc<3)
-{
-printf("%s\n","error");
-return 1;
-}
-else
+if(argc==3)
 {
 int i,j;
 i= atoi(argv[1]);
@@ -22,5 +17,10 @@ int r;
 r= i*j;
 printf("%d\n",r);
 return 0;
+}
+else
+{
+printf("%s\n","Error");
+return 1;
 }
 }
