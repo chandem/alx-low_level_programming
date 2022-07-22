@@ -14,7 +14,7 @@ return 1;
 }
 int r;
 r= argv[1]*argv[2];
-printf("%s\n",r);
+printf("%d\n",r);
 
 return 0;
 }
