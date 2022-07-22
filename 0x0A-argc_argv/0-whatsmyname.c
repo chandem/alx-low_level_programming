@@ -1,7 +1,12 @@
 #include<stdio.h>
+/** 
+*main -Entry point.
+*@argc: input parameter.
+*@argv: input parameter.
+*Return: 0
+/*
 int main (int argc ,char *argv[])
 {
-_putchar('.');
-_putchar('/');
-return argv[0];
+prinf("%s\n",argv[0]);
+return 0;
 }
