@@ -19,4 +19,6 @@ int r;
 r= (int)argv[1]+(int)argv[2];
 printf("%d\n",r);
 
-return
+return 0;
+}
+}
