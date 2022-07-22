@@ -12,9 +12,12 @@ if(argc<3)
 printf("%s\n","error");
 return 1;
 }
+else
+{
 int r;
 r= (int)argv[1]*(int)argv[2];
 printf("%d\n",r);
 
 return 0;
+}
 }
