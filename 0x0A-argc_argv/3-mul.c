@@ -16,7 +16,7 @@ else
 {
 int i,j;
 int i= atoi argv[1];
-int j=atoi argv[2];
+int j= atoi argv[2];
 int r;
 r= i*j;
 printf("%d\n",r);
