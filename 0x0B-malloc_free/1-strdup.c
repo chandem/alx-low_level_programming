@@ -6,12 +6,16 @@
 */
 char *_strdup(char *str)
 {
-if(*str=='\0')
+char *d;
+unsigned i;
+for(i=0;str!='\0';i++);
+d=malloc(i);
+if(d=='\0')
 {
 return NULL;
 }
 else
 {
-return (char *)str;
+return d;
 }
 }
