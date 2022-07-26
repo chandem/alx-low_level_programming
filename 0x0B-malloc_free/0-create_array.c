@@ -16,7 +16,7 @@ return NULL;
 }
 else
 }
-r=malloc (sizeof(c)*size);
+r=malloc(sizeof(c)*size);
 if(r==NULL)
 {
 return NULL;
