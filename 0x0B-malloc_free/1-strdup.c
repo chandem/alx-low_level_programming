@@ -18,6 +18,6 @@ return NULL;
 }
 else
 {
-return d;
+return (char *)d;
 }
 }
