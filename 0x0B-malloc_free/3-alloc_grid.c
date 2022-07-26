@@ -1,4 +1,6 @@
 #include"main.h"
+#include<stddef.h>
+#include<stdlib.h>
 /**
 *alloc_grid -function that returns two dimensional arrays.
 *@width: input parameter
@@ -10,7 +12,7 @@ int **alloc_grid(int width, int height)
 int **f;
 int i;
 int j;
-f= malloc(sizeof(int)*(width*height));
+f=(int)malloc(sizeof(int)*(width*height));
 if(width<=0 || height<=0)
 {
 return 0;
