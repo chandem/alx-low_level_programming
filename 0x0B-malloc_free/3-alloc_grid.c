@@ -22,8 +22,8 @@ for(i=0;i<height;i++)
 {
 for(j=0;j<width;j++)
 {
-f[i][j]=0;
+*f[i][j]=0;
 }
 }
-return f;
+return *f;
 }
