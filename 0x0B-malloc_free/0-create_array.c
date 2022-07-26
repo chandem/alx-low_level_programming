@@ -1,5 +1,6 @@
 #include"main.h"
-#include <stddef.h>
+#include<stddef.h>
+#include<stdlib.h>
 /**
 * create_array -function that create memory with given char.
 *@size: input parameter
