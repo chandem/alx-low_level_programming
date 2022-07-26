@@ -16,7 +16,7 @@ unsigned int k;
 unsigned int z;
 for(i=0;*s1!='\0';i++);
 for(j=0;*s2!='\0';j++);
-f=(char *)malloc((sizeof(char))*(i+j+1));
+f=(char *)malloc(sizeof(char)*(i+j+1));
 if(f==NULL)
 {
 return NULL;
@@ -31,6 +31,6 @@ for(z=0;z<j;z++)
 {
 f[k+z]=s2[j];
 }
-return f;
+return (f);
 }
 }
