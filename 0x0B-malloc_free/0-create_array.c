@@ -13,12 +13,13 @@ if(size==0)
 {
 return NULL;
 }
-else if(r==NULL)
+else
+}
+r=malloc (sizeof(c)*size);
+if(r==NULL)
 {
 return NULL;
 }
-else
-{
 for(i=0;i<size;i++)
 {
 r[i]=c;
