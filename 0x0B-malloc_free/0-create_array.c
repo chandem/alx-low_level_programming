@@ -7,10 +7,22 @@
 */
 char *create_array(unsigned int size, char c)
 {
+char *r;
 unsigned int i;
+if(size==0)
+{
+return NULL;
+}
+else if(r==NULL)
+{
+return NULL;
+}
+else
+{
 for(i=0;i<size;i++)
 {
-*(c+i)=c;
+r[i]=c;
 }
-
+return r;
+}
 }
