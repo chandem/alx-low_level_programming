@@ -23,13 +23,10 @@ if(d==NULL)
 {
 return NULL;
 }
-else
-{
 for(j=0;j<=i;j++)
 {
 d[j]=str[j];
 }
 return (d);
-}
 }
 }
