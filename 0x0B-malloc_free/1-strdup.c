@@ -4,6 +4,7 @@
 /**
 *_strdup -function that returns pointer.
 *@str: input parameter.
+*Return: char.
 */
 char *_strdup(char *str)
 {
