@@ -17,8 +17,7 @@ if(width<=0 || height<=0)
 {
 return 0;
 }
-else
-{
+
 for(i=0;i<height;i++)
 {
 for(j=0;j<width;j++)
@@ -27,5 +26,4 @@ f[i][j]=0;
 }
 }
 return f;
-}
 }
