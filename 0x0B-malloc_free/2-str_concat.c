@@ -31,7 +31,7 @@ return NULL;
 }
 for(k=0;k<i;k++)
 {
-f[k]=s1[i];
+f[k]=s1[k];
 }
 for(z=0;z<=j;z++)
 {
