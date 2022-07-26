@@ -27,7 +27,7 @@ for(k=0;k<i;k++)
 {
 f[k]=s1[i];
 }
-for(z=0;z<j;z++)
+for(z=0;z<=j;z++)
 {
 f[k+z]=s2[j];
 }
