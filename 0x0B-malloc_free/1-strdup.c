@@ -9,9 +9,9 @@ char *_strdup(char *str)
 {
 char *d;
 unsigned i;
-for(i=0;str!='\0';i++);
+for(i=0;*str!='\0';i++);
 d=malloc(i);
-if(d=='\0')
+if(*d=='\0')
 {
 return NULL;
 }
