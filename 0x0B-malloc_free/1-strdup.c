@@ -12,6 +12,6 @@ return NULL;
 }
 else
 {
-return *str;
+return (char *)str;
 }
 }
