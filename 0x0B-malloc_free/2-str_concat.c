@@ -33,8 +33,9 @@ for(k=0;k<i;k++)
 {
 f[k]=s1[i];
 }
-for(z=0;z<=j;k++;z++)
+for(z=0;z<=j;z++)
 {
+k++;
 f[k]=s2[z];
 }
 return (f);
