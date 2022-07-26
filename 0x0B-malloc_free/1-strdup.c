@@ -13,7 +13,7 @@ unsigned i;
 unsigned int j;
 for(i=0;*str!='\0';i++);
 d=malloc(i);
-if(d=='\0')
+if(*d=='\0')
 {
 return NULL;
 }
@@ -21,7 +21,7 @@ else
 {
 for(j=0;j<i;j++)
 {
-d[j]=str[j];
+*d[j]=*str[j];
 }
 return d;
 }
