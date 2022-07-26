@@ -1,4 +1,5 @@
 #include"main.h"
+#include <stddef.h>
 /**
 * create_array -function that create memory with given char.
 *@size: input parameter
@@ -20,10 +21,13 @@ if(r==NULL)
 {
 return NULL;
 }
+else
+{
 for(i=0;i<size;i++)
 {
 r[i]=c;
 }
 return r;
+}
 }
 }
