@@ -10,12 +10,8 @@ if(*str=='\0')
 {
 return NULL;
 }
-else if(*str!='\0')
-{
-return str;
-}
 else
 {
-
+return str;
 }
 }
