@@ -12,8 +12,8 @@ char *d;
 unsigned i;
 unsigned int j;
 for(i=0;*str!='\0';i++);
-d=malloc(i);
-if(*d==NULL)
+d=malloc(sizeof(char)*(i+1));
+if(d==NULL)
 {
 return NULL;
 }
