@@ -17,7 +17,7 @@ unsigned int z;
 for(i=0;*s1!='\0';i++);
 for(j=0;*s2!='\0';j++);
 f=malloc(i+j);
-if(*f=='\0')
+if(*f==NULL)
 {
 return NULL;
 }
