@@ -9,15 +9,15 @@
 char *argstostr(int ac, char **av)
 { 
 char *d;
-int i;
-int j;
+unsigned int i;
+unsigned int j;
 unsigned int k;
-k=0;
+
 if(av==NULL || ac==0)
 {
 return NULL;
 }
-
+k=0;
 while(ac>=0)
 {
 for(i=0;av[ac][i]!='\0';i++)
