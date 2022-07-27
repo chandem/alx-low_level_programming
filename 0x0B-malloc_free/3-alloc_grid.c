@@ -16,7 +16,19 @@ if(width<=0 || height<=0)
 {
 return 0;
 }
-f=malloc(sizeof(int)*((width)*(height)));
+f=malloc(sizeof(int*)*(height));
+if(f==NULL)
+{
+return NULL;
+}
+for(i=0;i<height;i++)
+{
+f[i]=malloc(sizeof(int)*(width));
+if(f[i]==NULL)
+{
+return NULL;
+}
+}
 for(i=0;i<height;i++)
 {
 for(j=0;j<width;j++)
