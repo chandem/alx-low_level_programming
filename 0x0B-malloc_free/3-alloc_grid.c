@@ -20,6 +20,7 @@ f=malloc(sizeof(int*)*(height));
 if(f==NULL)
 {
 return NULL;
+free(f);
 }
 for(i=0;i<height;i++)
 {
@@ -27,6 +28,7 @@ f[i]=malloc(sizeof(int)*(width));
 if(f[i]==NULL)
 {
 return NULL;
+free(f);
 }
 }
 for(i=0;i<height;i++)
