@@ -28,6 +28,10 @@ k++;
 ac--;
 }
 d=(char *)malloc(sizeof(char)*(k+1));
+if(d==NULL)
+{
+return NULL;
+}
 for(j=0;j<=ac;j++)
 {
 d[j]=*av[j];
