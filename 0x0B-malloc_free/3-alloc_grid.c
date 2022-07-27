@@ -35,7 +35,6 @@ i--;
 }
 free(f);
 return NULL;
-
 }
 }
 for(i=0;i<height;i++)
