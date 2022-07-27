@@ -28,9 +28,9 @@ k++;
 ac--;
 }
 d=malloc(sizeof(char)*(k+1));
-for(j=0;j<ac;j++)
+for(j=0;j<=ac;j++)
 {
-d[j]=*av[ac];
+d[j]=*av[j];
 }
 return d;
 }
