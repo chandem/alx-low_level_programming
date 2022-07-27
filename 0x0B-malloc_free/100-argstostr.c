@@ -17,8 +17,7 @@ if(av==NULL || ac==0)
 {
 return NULL;
 }
-else
-{
+
 while(ac>=0)
 {
 for(i=0;av[ac][i]!='\0';i++)
@@ -38,4 +37,4 @@ d[j]=*av[j];
 }
 return d;
 }
-}
+
