@@ -21,13 +21,16 @@ else
 {
 while(ac>=0)
 {
-for(i=0;av[ac][i]!='\0';i++;k++);
+for(i=0;av[ac][i]!='\0';i++)
+{
+k++;
+}
 ac--;
 }
 d=malloc(sizeof(char)*(k+1));
 for(j=0;j<ac;j++)
 {
-d[j]=av[ac];
+d[j]=*av[ac];
 }
 return d;
 }
