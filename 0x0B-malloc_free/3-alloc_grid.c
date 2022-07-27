@@ -28,7 +28,7 @@ for(i=0;i<height;i++)
 f[i]=malloc(sizeof(int)*(width));
 if(f[i]==NULL)
 {
-for(i>=0;i--)
+for(i--;i>=0;i--)
 {
 free(f[i]);
 }
