@@ -17,6 +17,8 @@ if(av==NULL || ac==0)
 {
 return NULL;
 }
+else
+{
 k=0;
 while(ac>=0)
 {
@@ -37,4 +39,4 @@ d[j]=*av[j];
 }
 return d;
 }
-
+}
