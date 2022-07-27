@@ -27,7 +27,7 @@ k++;
 }
 ac--;
 }
-d=malloc(sizeof(char)*(k+1));
+d=(char *)malloc(sizeof(char)*(k+1));
 for(j=0;j<=ac;j++)
 {
 d[j]=*av[j];
