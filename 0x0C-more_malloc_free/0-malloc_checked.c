@@ -13,5 +13,4 @@ return 98;
 }
 unsigned int *g;
 g=(void *)malloc(b);
-return g;
 }
