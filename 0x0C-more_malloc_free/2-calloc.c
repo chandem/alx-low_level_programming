@@ -13,14 +13,14 @@ if(nmemb==0 ||size==0)
 {
 return NULL;
 }
-d=malloc(sizeof(char *)*nmemb);
+d=malloc(sizeof(char *)*size);
 if(d==NULL)
 {
 return NULL;
 }
-for(i=0;i<nmemb;i++)
+for(i=0;i<size;i++)
 {
-d[i]=malloc(sizeof(char)*size);
+d[i]=malloc(sizeof(char)*nmemb);
 if(d==NULL)
 {
 return NULL;
