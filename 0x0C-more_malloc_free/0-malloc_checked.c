@@ -7,7 +7,7 @@
 */
 void *malloc_checked(unsigned int b)
 {
-if(typeof(b)==INT_MAX)
+if(b==INT_MAX)
 {
 return 98;
 }
