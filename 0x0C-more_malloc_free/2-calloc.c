@@ -17,7 +17,6 @@ return NULL;
 d=malloc(sizeof(char *)*size);
 if(d==NULL)
 {
-free(d);
 return NULL;
 }
 for(i=0;i<size;i++)
@@ -25,12 +24,6 @@ for(i=0;i<size;i++)
 d[i]=malloc(sizeof(char)*nmemb);
 if(d[i]==NULL)
 {
-while(i>=0)
-{
-free(d[i]);
-i--;
-}
-free(d);
 return NULL;
 }
 }
