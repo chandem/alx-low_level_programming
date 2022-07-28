@@ -7,11 +7,11 @@
 */
 void *malloc_checked(unsigned int b)
 {
-if(typeof(b)!=unsigned int)
+if(typeof(b)!=char)
 {
 return 98;
 }
 unsigned int *g;
-g=(void *)malloc(sizeof(unsigned int)*b);
+g=(void *)malloc(b);
 return g;
 }
