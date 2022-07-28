@@ -1,5 +1,6 @@
 #include"main.h"
 #include<stdlib.h>
+#include<limits.h>
 /**
 *malloc_checked -function that allocates memory.
 *@b: input parameter.
