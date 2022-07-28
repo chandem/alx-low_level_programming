@@ -11,7 +11,7 @@ if(typeof(b)!=unsigned int)
 {
 return 98;
 }
-char *g;
+unsigned int *g;
 g=(void *)malloc(sizeof(unsigned int)*b);
 return g;
 }
