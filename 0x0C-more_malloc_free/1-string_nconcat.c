@@ -27,7 +27,7 @@ for(j=0;s2[j]!='\0';j++);
 if(n>=j)
 {
 n=j;
-d=malloc(i+n+1);
+d=(char *)malloc(i+n+1);
 if(d==NULL)
 {
 return NULL;
@@ -45,7 +45,7 @@ return d;
 }
 else
 {
-d=malloc(i+n+1);
+d=(char *)malloc(i+n+1);
 if(d==NULL)
 {
 return NULL;
