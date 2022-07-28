@@ -23,8 +23,14 @@ return NULL;
 for(i=0;i<size;i++)
 {
 d[i]=malloc(sizeof(char)*nmemb);
-if(d==NULL)
+if(d[i]==NULL)
 {
+while(i>=0)
+{
+free(d[i]);
+i--;
+}
+free(d);
 return NULL;
 }
 }
