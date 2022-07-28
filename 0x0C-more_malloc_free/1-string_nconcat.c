@@ -37,7 +37,7 @@ d[k]=s1[k];
 }
 for(z=0;z<=j;z++)
 {
-d[k+z+1]=s1[z];
+d[k+z+1]=s2[z];
 }
 return d;
 }
@@ -55,7 +55,7 @@ d[k]=s1[k];
 }
 for(z=0;z<=n;z++)
 {
-d[k+z+1]=s1[z];
+d[k+z+1]=s2[z];
 }
 return d;
 }
