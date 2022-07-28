@@ -24,27 +24,10 @@ s2="";
 }
 for(i=0;s1[i]!='\0';i++);
 for(j=0;s2[j]!='\0';j++);
-if(n<j)
-{
-d=malloc(sizeof(char)*(i+j+1));
-if(d==NULL)
-{
-return NULL;
-}
-for(k=0;k<i;k++)
-{
-d[k]=s1[k];
-}
-for(z=0;z<=j;z++)
-{
-d[k+z+1]=s2[z];
-}
-return d;
-}
-else
-{
+if(n>j)
 n=j;
-d=malloc(sizeof(char)*(i+n+1));
+{
+d=malloc(i+n+1);
 if(d==NULL)
 {
 return NULL;
@@ -54,6 +37,23 @@ for(k=0;k<i;k++)
 d[k]=s1[k];
 }
 for(z=0;z<=n;z++)
+{
+d[k+z+1]=s2[z];
+}
+return d;
+}
+else
+{
+d=malloc(i+j+1);
+if(d==NULL)
+{
+return NULL;
+}
+for(k=0;k<i;k++)
+{
+d[k]=s1[k];
+}
+for(z=0;z<=j;z++)
 {
 d[k+z+1]=s2[z];
 }
