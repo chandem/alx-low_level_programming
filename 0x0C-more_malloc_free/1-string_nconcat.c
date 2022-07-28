@@ -36,10 +36,11 @@ for(k=0;k<i;k++)
 {
 d[k]=s1[k];
 }
-for(z=0;z<=n;z++)
+for(z=0;z<n;z++)
 {
 d[k+z+1]=s2[z];
 }
+d[k+1]='\0';
 return d;
 }
 else
@@ -53,10 +54,11 @@ for(k=0;k<i;k++)
 {
 d[k]=s1[k];
 }
-for(z=0;z<=j;z++)
+for(z=0;z<j;z++)
 {
 d[k+z+1]=s2[z];
 }
+d[k+1]='\0';
 return d;
 }
 }
