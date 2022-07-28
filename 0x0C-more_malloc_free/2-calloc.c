@@ -21,7 +21,7 @@ return NULL;
 }
 for(i=0;i<size;i++)
 {
-d[i]=malloc(sizeof(char)*nmemb);
+d[i]=malloc(sizeof(char)*(nmemb+1));
 if(d[i]==NULL)
 {
 return NULL;
