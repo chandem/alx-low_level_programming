@@ -7,7 +7,7 @@
 */
 void *malloc_checked(unsigned int b)
 {
-if(typeof(b)!=char)
+if(typeof(b)==char)
 {
 return 98;
 }
