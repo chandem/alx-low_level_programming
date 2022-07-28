@@ -7,7 +7,7 @@
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-int *d;
+unsigned int *d;
 d=malloc(size);
 return d;
 }
