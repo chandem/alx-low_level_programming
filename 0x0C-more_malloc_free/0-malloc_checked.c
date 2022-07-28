@@ -6,7 +6,7 @@
 */
 void *malloc_checked(unsigned int b)
 {
-if(sizeof(b)!=sizeof(unsigned int))
+if(typeof(b)!=unsigned int)
 {
 return 98;
 }
