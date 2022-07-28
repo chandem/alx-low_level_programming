@@ -44,7 +44,7 @@ for(k=0;k<i;k++)
 {
 d[k]=s1[k];
 }
-for(z=0;z<n;z++)
+for(z=0;z<=n;z++)
 {
 d[k+z]=s1[z];
 }
