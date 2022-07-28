@@ -33,6 +33,6 @@ i--;
 free(d);
 return NULL;
 }
-}
 return d;
+}
 }
