@@ -17,6 +17,7 @@ return NULL;
 d=malloc(sizeof(char *)*size);
 if(d==NULL)
 {
+free(d);
 return NULL;
 }
 for(i=0;i<size;i++)
