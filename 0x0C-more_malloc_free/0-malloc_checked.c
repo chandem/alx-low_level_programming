@@ -1,6 +1,5 @@
 #include"main.h"
 #include<stdlib.h>
-#include<limits.h>
 /**
 *malloc_checked -function that allocates memory.
 *@b: input parameter.
@@ -11,7 +10,7 @@ char *g;
 g=malloc(b);
 if(g==NULL)
 {
-Exit(98);
+exit(98);
 }
 return g;
 }
