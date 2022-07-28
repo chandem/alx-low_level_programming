@@ -43,7 +43,7 @@ return d;
 }
 else
 {
-d=malloc(sizeof(char)*(i+n));
+d=malloc(sizeof(char)*(i+n+1));
 if(d==NULL)
 {
 return NULL;
