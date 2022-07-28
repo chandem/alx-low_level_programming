@@ -7,10 +7,11 @@
 */
 void *malloc_checked(unsigned int b)
 {
-if(b==INT_MAX)
+char *g;
+g=malloc(b);
+if(g==NULL)
 {
-return 98;
+Exit(98);
 }
-unsigned int *g;
-g=(void *)malloc(b);
+return g;
 }
