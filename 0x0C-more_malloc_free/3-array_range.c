@@ -23,8 +23,8 @@ return NULL;
 j=0;
 for(i=min;i<=max;i++)
 {
-j++;
 g[j]=min+j;
+j++;
 }
 return g;
 }
