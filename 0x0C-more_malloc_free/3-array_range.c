@@ -24,7 +24,7 @@ j=0;
 for(i=min;i<=max;i++)
 {
 j++;
-g[j]=i;
+g[j]=min+j;
 }
 return g;
 }
