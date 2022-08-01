@@ -1,2 +1,7 @@
 #include<stdio.h>
-#define NAME printf("2.main.c\n")
+
+int main()
+{
+printf("2.main.c\n");
+return 0;
+}
