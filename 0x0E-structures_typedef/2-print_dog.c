@@ -20,8 +20,8 @@ printf();
 }
 else
 {
-printf("Name:%s",d.name);
+printf("Name:%c",d.name);
 printf("Age:%f",d.age);
-printf("Owner:%s",d.owner);
+printf("Owner:%c",d.owner);
 }
 }
