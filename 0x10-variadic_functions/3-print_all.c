@@ -9,8 +9,6 @@
 void print_all(const char * const format, ...)
 {
 int i;
-char c;
-float d;
 char *h;
 va_list args;
     va_start(args, format);
@@ -22,16 +20,7 @@ va_list args;
              i = va_arg(args, int);
             printf("%d\n", i);
         } 
-else if (*format == 'c') 
-{
-             c = va_arg(args, char);
-            printf("%c\n", c);
-        } 
-else if (*format == 'f')
- {
-             d = va_arg(args,float);
-            printf("%f\n", d);
-        }
+
 else if (*format == 's')
 {
 h = va_arg(args, char *);
