@@ -8,26 +8,38 @@
 
 void print_all(const char * const format, ...)
 {
+int i;
+char c;
+float d;
+char *h;
 va_list args;
-    va_start(args, fmt);
+    va_start(args, format);
  
-    while (*fmt != '\0') {
-        if (*fmt == 'd') {
-            int i = va_arg(args, int);
+    while (*format != '\0')
+ {
+        if (*format == 'd') 
+{
+             i = va_arg(args, int);
             printf("%d\n", i);
-        } else if (*fmt == 'c') {
-            // A 'char' variable will be promoted to 'int'
-            // A character literal in C is already 'int' by itself
-            int c = va_arg(args, int);
+        } 
+else if (*format == 'c') 
+{
+             c = va_arg(args, char);
             printf("%c\n", c);
-        } else if (*fmt == 'f') {
-            double d = va_arg(args, double);
+        } 
+else if (*format == 'f')
+ {
+             d = va_arg(args,float);
             printf("%f\n", d);
         }
+else if (*format == 's')
+{
+h = va_arg(args, char *);
+            printf("%s\n", h);
+}
         ++fmt;
     }
  
     va_end(args);
 }
  
-}
