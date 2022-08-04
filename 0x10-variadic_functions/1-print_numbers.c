@@ -17,8 +17,12 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
   z= va_arg(ptr, unsigned int);
 printf("%u",z);
+if(i==n-1)
+{
+break;
+}
 printf("%s", separator);
 }
     va_end(ptr);
- 
+printf("\n");
 }
