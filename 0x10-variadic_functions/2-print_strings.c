@@ -19,7 +19,7 @@ if(z==NULL)
 {
 printf("%s","nil");
 }
-printf("%u",z);
+printf("%s",z);
 if(separator==NULL)
 {
 continue;
