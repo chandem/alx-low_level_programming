@@ -21,11 +21,6 @@ va_list args;
             printf("%d\n", i);
         } 
 
-else if (*format == 's')
-{
-h = va_arg(args, char *);
-            printf("%s\n", h);
-}
         ++fmt;
     }
  
