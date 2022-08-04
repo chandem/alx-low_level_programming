@@ -9,13 +9,14 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
     unsigned int i;
+    unsigned int z;
     va_list ptr;
-    va_start(ptr, separator, n);
+    va_start(ptr,n);
     
     for (i = 0; i < n; i++)
 {
-  va_arg(ptr,char*, unsigned int);
-printf("%lu",n);
+  z= va_arg(ptr, unsigned int);
+printf("%u",z);
 printf("%s", separator);
 }
     va_end(ptr);
