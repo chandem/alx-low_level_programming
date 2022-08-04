@@ -1,4 +1,4 @@
-include<stdarg.h>
+#include<stdarg.h>
 #include<stdio.h>
 #include"variadic_functions.h"
 /**
@@ -23,15 +23,10 @@ else
 {
 printf("%s",z);
 }
-if(separator==NULL)
+if(i!=n-1 && separator!=NULL)
 {
-continue;
-}
-if(i==n-1)
-{
-break;
-}
 printf("%s", separator);
+}
 }
     va_end(ptr);
 printf("\n");
