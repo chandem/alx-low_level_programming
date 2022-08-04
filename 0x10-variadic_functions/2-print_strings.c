@@ -14,11 +14,12 @@ char *z;
     va_start(ptr,n);
     for (i = 0; i < n; i++)
 {
-  z= va_arg(ptr, unsigned int);
+  z= va_arg(ptr, char);
 if(z==NULL)
 {
 printf("%s","nil");
 }
+
 printf("%s",z);
 if(separator==NULL)
 {
