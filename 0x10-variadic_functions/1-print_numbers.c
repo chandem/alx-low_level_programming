@@ -14,7 +14,7 @@ int z;
     va_start(ptr,n);
     for (i = 0; i < n; i++)
 {
-  z= va_arg(ptr, unsigned int);
+  z= va_arg(ptr,int);
 printf("%u",z);
 if(separator==NULL)
 {
