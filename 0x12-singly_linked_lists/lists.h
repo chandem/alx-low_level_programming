@@ -1,6 +1,11 @@
 #ifndef _LISTS_
 #define _LISTS_
 
+#include<stdio.h>
+#include<string.h>
+#include<lists.h>
+#include<stdlib.h>
+
 typedef struct list_s
 {
     char *str;
