@@ -10,6 +10,8 @@ size_t r;
 r=0;
 while (h != NULL) 
 {
+printf("%d",h->Len);
+h=h->next;
 r++;
 }
 return r;
