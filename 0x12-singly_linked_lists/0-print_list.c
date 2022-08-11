@@ -6,19 +6,19 @@
 */
 size_t print_list(const list_t *h)
 {
-list_t *head=h;
+
 size_t r;
 r=0;
-if(head->str==NULL)
+while (h != NULL) 
+{
+if(h->str==NULL)
 {
 printf("[%d] %s\n",0, "(nil)");
 }
 else
 {
-while (head != NULL) 
-{
-    printf("[%d] %s\n", head->len,head->str);
-    head = head->next;
+    printf("[%d] %s\n", h->len,h->str);
+    h = h->next;
 r++;
   }
 }
