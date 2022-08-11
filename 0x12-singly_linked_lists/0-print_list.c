@@ -20,7 +20,7 @@ list_t *head=h;
 head->Len=0;
 while (head != NULL) 
 {
-    printf("%s", h->str);
+    printf("%s", head->str);
     head = head->next;
 head->Len++;
   }
