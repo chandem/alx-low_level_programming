@@ -18,7 +18,7 @@ printf("%s","[0] (nil)");
 }
 while (head != NULL) 
 {
-    printf("%s", head->str);
+    printf("[%d] %s", head->len,head->str);
     head = head->next;
 head->Len++;
   }
