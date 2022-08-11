@@ -26,5 +26,6 @@ size_t d;
         newNode->next = *head;
 
         *head = newNode;  
+}
 return (*head);        
 }
