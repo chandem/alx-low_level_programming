@@ -1,10 +1,10 @@
 #include"lists.h"
 /**
-*print_list -function that print list.
+*list_len -function that print list.
 *@h: input parameter.
 *Return: size_t.
 */
-size_t print_list(const list_t *h)
+size_t list_len(const list_t *h)
 {
 size_t r;
 r=0;
