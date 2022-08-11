@@ -11,21 +11,20 @@ list_t *newnode
 size_t d;
 
     newnode =(list_t)malloc(sizeof(list_t));
-    newnode->str = strdup(str);
-    for (d = 0; str[d]; d++);
+    
 
     if(newnode == NULL)
     {
         return NULL;
     }
 
-
-    else
-    {
-        newnode->len = len;
+    newnode->str = strdup(str);
+    for (d = 0; str[d]; d++);
+   
+        newnode->len = d;
         newnode->next = *head;
 
         *head = newnode;  
-}
+
 return (*head);        
 }
