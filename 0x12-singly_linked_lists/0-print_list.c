@@ -11,13 +11,13 @@ size_t r;
 r=0;
 if(head->str==NULL)
 {
-printf("[%d] %s",0 "(nil)");
+printf("[%d] %s\n",0, "(nil)");
 }
 else
 {
 while (head != NULL) 
 {
-    printf("[%d] %s", head->len,head->str);
+    printf("[%d] %s\n", head->len,head->str);
     head = head->next;
 r++;
   }
