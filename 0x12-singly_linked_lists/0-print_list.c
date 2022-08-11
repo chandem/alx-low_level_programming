@@ -18,6 +18,10 @@ typedef struct list_s
 } list_t;
 list_t *head=h;
 head->Len=0;
+if(head->str==NULL)
+{
+printf("%s","[0] (nil)");
+}
 while (head != NULL) 
 {
     printf("%s", head->str);
