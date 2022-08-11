@@ -11,16 +11,20 @@
 size_t print_list(const list_t *h)
 {
 list_t *head=h;
-head->Len=0;
+size_t r;
+r=0;
 if(head->str==NULL)
 {
-printf("%s","[0] (nil)");
+printf("[%d] %s",0 "(nil)");
 }
+else
+{
 while (head != NULL) 
 {
     printf("[%d] %s", head->len,head->str);
     head = head->next;
-head->Len++;
+r++;
   }
-return (head->len);
+}
+return r;
 }
