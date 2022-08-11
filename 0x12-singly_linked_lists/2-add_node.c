@@ -12,12 +12,9 @@ size_t d;
 
     newnode = malloc(sizeof(list_t));
     
-
     if(newnode == NULL)
-    {
         return NULL;
-    }
-
+    
     newnode->str = strdup(str);
     for (d = 0; str[d]; d++);
    
