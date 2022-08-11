@@ -1,7 +1,8 @@
 #include"lists.h"
 #include<stdio.h>
 #include<string.h>
-#include<list.h>
+#include<lists.h>
+#include<stdlib.h>
 /**
 *print_list -function that print list.
 *@h: input parameter.
